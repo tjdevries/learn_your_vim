@@ -1,0 +1,1675 @@
+[
+    {
+        "question": "Move cursor down one line",
+        "answer": "j",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Move cursor up one line",
+        "answer": "k",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Move cursor left one character",
+        "answer": "h",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Move cursor right one character",
+        "answer": "l",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Return to Normal mode",
+        "answer": "&lt;ESC&gt;<br /><span style=\"font-style:italic;\">(escape)</span>",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Exit the editor, discarding any changes",
+        "answer": ":q!&lt;ENTER&gt;",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Exit the editor, but abort if there are unsaved changes",
+        "answer": ":q&lt;ENTER&gt;",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Delete the character under the cursor",
+        "answer": "x",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Insert text before the cursor",
+        "answer": "i",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Append text at the end of the current line",
+        "answer": "A",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Save the current file and exit",
+        "answer": ":wq&lt;ENTER&gt;",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Append text after the cursor",
+        "answer": "a",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Invert case of current character",
+        "answer": "~",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go down half a screen",
+        "answer": "&lt;C-D&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go up half a screen",
+        "answer": "&lt;C-U&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go forward a screen",
+        "answer": "&lt;C-F&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go back a screen",
+        "answer": "&lt;C-B&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to end of text",
+        "answer": "G",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to previous word",
+        "answer": "b",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to next word",
+        "answer": "w",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to end of (next) word",
+        "answer": "e<br />(goes to end of next word if already at end of word)",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to end of previous word",
+        "answer": "ge",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to first non-whitespace character of current line",
+        "answer": "^",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to last character of current line",
+        "answer": "$",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to line <span style=\"font-style:italic;\">n</span>",
+        "answer": "<span style=\"font-style:italic;\">n</span>G     <span style=\"font-style:italic;\">n</span>gg",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to first line of file",
+        "answer": "1G     gg",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Go to last line of file",
+        "answer": "G",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Insert at beginning of line (after whitespace)",
+        "answer": "I",
+        "tags": [
+            "Basic"
+        ]
+    },
+    {
+        "question": "Undo last command",
+        "answer": "u",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Restore last changed line",
+        "answer": "U",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Redo last undo",
+        "answer": "&lt;C-R&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor left to start of next space-separated word",
+        "answer": "B",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor right to start of next space-separated word",
+        "answer": "W",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor left to end of next space-separated word",
+        "answer": "gE",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor right to end of next space-separated word",
+        "answer": "E",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor to next occurrence of character <span style=\"font-style:italic;\">c</span>",
+        "answer": "f<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor to previous occurrence of character <span style=\"font-style:italic;\">c</span>",
+        "answer": "F<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor to character before next occurrence of <span style=\"font-style:italic;\">c</span>",
+        "answer": "t<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move cursor to character after previous occurrence of <span style=\"font-style:italic;\">c</span>",
+        "answer": "T<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Delete a word",
+        "answer": "dw",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Delete to the end of the line",
+        "answer": "d$",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Delete text indicated by motion <span style=\"font-style:italic;\">m</span>",
+        "answer": "d<span style=\"font-style:italic;\">m</span><br /><span style=\"font-style:italic;\">(example: d$ means delete to end of line)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Delete <span style=\"font-style:italic;\">n</span> words",
+        "answer": "<span style=\"font-style:italic;\">n</span>dw",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Move to the start of the line (before whitespace)",
+        "answer": "0",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Delete a line",
+        "answer": "dd",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Undo the last command",
+        "answer": "u<br /><span style=\"font-style:italic;\">(may be used repeatedly to undo multiple commands)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Redo the last undone command",
+        "answer": "&lt;C-R&gt;<br /><span style=\"font-style:italic;\">(Control-R)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Put previously deleted (or copied) text after the cursor",
+        "answer": "p",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Put previously deleted text before the cursor",
+        "answer": "P",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Replace the character under the cursor with character <span style=\"font-style:italic;\">x</span>",
+        "answer": "r<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Change to the end of the current word",
+        "answer": "ce",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Change to the end of the current line",
+        "answer": "c$",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "See location in file and file status",
+        "answer": "&lt;C-G&gt;<br /><span style=\"font-style:italic;\">(Control-G)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Search for phrase",
+        "answer": "/<span style=\"font-style:italic;\">phrase</span>&lt;ENTER&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Substitute first occurrence of <span style=\"font-style:italic;\">phrase1</span> with <span style=\"font-style:italic;\">phrase2</span> on the current line",
+        "answer": ":s/<span style=\"font-style:italic;\">phrase1</span>/<span style=\"font-style:italic;\">phrase2</span>&lt;ENTER&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Substitute all occurrences of <span style=\"font-style:italic;\">phrase1</span> with <span style=\"font-style:italic;\">phrase2</span> on the current line",
+        "answer": ":s/<span style=\"font-style:italic;\">phrase1</span>/<span style=\"font-style:italic;\">phrase2</span>/g&lt;ENTER&gt;<br /><span style=\"font-style:italic;\">(The /g at the end means \"global\")</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Substitute all occurrences of <span style=\"font-style:italic;\">phrase1</span> with <span style=\"font-style:italic;\">phrase2</span> in the entire file",
+        "answer": ":%s/<span style=\"font-style:italic;\">phrase1</span>/<span style=\"font-style:italic;\">phrase2</span>/g<br /><span style=\"font-style:italic;\">(% means execute the command for the entire file)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Execute external command <span style=\"font-style:italic;\">cmd</span>",
+        "answer": ":!<span style=\"font-style:italic;\">cmd</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Save the current file to file named <span style=\"font-style:italic;\">filename</span>",
+        "answer": ":w <span style=\"font-style:italic;\">filename</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Save the visually selected area to file named <span style=\"font-style:italic;\">filename</span>",
+        "answer": ":w <span style=\"font-style:italic;\">filename</span><br /><span style=\" font-style:italic;\">(vim will automatically add '&lt;,'&gt; to the beginning of your command for the visually selected area)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Open a new line below the cursor's line and enter Insert mode",
+        "answer": "o",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Open a new line above the cursor's line and enter Insert mode",
+        "answer": "O <span style=\"font-style:italic;\">(capital o)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Enter Replace mode, to repeatedly replace the character under the cursor and advance",
+        "answer": "R",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Yank (copy) the selected text",
+        "answer": "y",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Yank (copy) the current line",
+        "answer": "yy <span style=\"font-style:italic;\">or</span> Y",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Yank (copy) from cursor through motion <span style=\"font-style:italic;\">m</span>",
+        "answer": "y<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Put (paste) copied text after the cursor",
+        "answer": "p",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Put (paste) copied text before the cursor",
+        "answer": "P",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Ignore case in searches",
+        "answer": ":set ic <span style=\"font-style:italic;\">(or :set ignorecase)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Show partial matches while typing search phrase",
+        "answer": ":set is <span style=\"font-style:italic;\">(or :set incsearch)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Highlight all matching phrases for the last search",
+        "answer": ":set hls <span style=\"font-style:italic;\">(or :set hlsearch)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Get help on command <span style=\"font-style:italic;\">cmd</span>",
+        "answer": ":help <span style=\"font-style:italic;\">cmd</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Jump to the next window",
+        "answer": "&lt;C-W&gt;&lt;C-W&gt;",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Jump to the next window right, left, up, or down",
+        "answer": "&lt;C-W&gt;&lt;C-<span style=\"font-style:italic;\">K</span>&gt; <span style=\"font-style:italic;\">(where </span>K<span style=\"font-style:italic;\"> is a cursor movement key h, j, k, l)</span>",
+        "tags": [
+            "Beginner"
+        ]
+    },
+    {
+        "question": "Jump to last modified line",
+        "answer": "'.",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Jump to exact spot in last modified line",
+        "answer": "`.",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Retrace your movements in file (backward)<br />",
+        "answer": "&lt;C-O&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Retrace your movements in file (forward)",
+        "answer": "&lt;C-I&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Forward find word under cursor",
+        "answer": "*",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Forward find word under cursor (fuzzy)",
+        "answer": "g*",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Backward find word under cursor (fuzzy)",
+        "answer": "g#",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Backward find word under cursor",
+        "answer": "#",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Open file name under cursor",
+        "answer": "gf",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Swap next two characters around",
+        "answer": "xp",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "(Re)indent the text on the current line or on the area selected",
+        "answer": "=\"",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Append the next <span style=\"font-style:italic;\">n</span> lines to register 'a'",
+        "answer": "\"A<span style=\"font-style:italic;\">n</span>yy",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to top of screen",
+        "answer": "H",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to middle of screen",
+        "answer": "M",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to bottom of screen",
+        "answer": "L",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Mark this line <span style=\"font-style:italic;\">x</span>",
+        "answer": "m<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to exact position of mark in line marked <span style=\"font-style:italic;\">x</span>",
+        "answer": "`<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to percentage from top of file",
+        "answer": "<span style=\"font-style:italic;\">n</span>%",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Match of next brace, bracket, comment, #define",
+        "answer": "%",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to line <span style=\"font-style:italic;\">n</span> from top of window",
+        "answer": "<span style=\"font-style:italic;\">n</span>H",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to line <span style=\"font-style:italic;\">n</span> from bottom of window",
+        "answer": "<span style=\"font-style:italic;\">n</span>L",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Insert at first column",
+        "answer": "gI",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to line marked <span style=\"font-style:italic;\">x</span>",
+        "answer": "'x",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Switch case for movement command <span style=\"font-style:italic;\">m</span>",
+        "answer": "g~<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Lowercase text between cursor and movement <span style=\"font-style:italic;\">m</span>",
+        "answer": "gu<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Uppercase text between cursor and movement command <span style=\"font-style:italic;\">m</span>",
+        "answer": "gU<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Delete range <span style=\"font-style:italic;\">r</span> lines",
+        "answer": ":<span style=\"font-style:italic;\">r</span>d&lt;Enter&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Delete range <span style=\"font-style:italic;\">r</span> lines into register <span style=\"font-style:italic;\">x</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>d<span style=\"font-style:italic;\">x</span>&lt;Enter&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Insert character represented by ASCII value <span style=\"font-style:italic;\">n</span> (Insert mode)",
+        "answer": "&lt;C-V&gt;<span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Insert previously inserted text (Insert mode)",
+        "answer": "&lt;C-A&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Text completion before cursor (Insert mode)",
+        "answer": "&lt;C-N&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Text completion after cursor (Insert mode)",
+        "answer": "&lt;C-P&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Delete word before cursor (Insert mode)",
+        "answer": "&lt;C-W&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Delete all inserted characters in current line",
+        "answer": "&lt;C-U&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Show the content of all registers",
+        "answer": ":reg&lt;Enter&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Show the content of register <span style=\"font-style:italic;\">x</span>",
+        "answer": ":reg <span style=\"font-style:italic;\">x</span>&lt;Enter&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Perform rot13 encoding on movement <span style=\"font-style:italic;\">m</span>",
+        "answer": "g?<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Filter lines of movement <span style=\"font-style:italic;\">m</span> through command <span style=\"font-style:italic;\">c</span>",
+        "answer": "!<span style=\"font-style:italic;\">mc</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Filter <span style=\"font-style:italic;\">n</span> lines through command <span style=\"font-style:italic;\">c</span>",
+        "answer": "<span style=\"font-style:italic;\">n</span>!!<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Filter range <span style=\"font-style:italic;\">r</span> lines through command <span style=\"font-style:italic;\">c</span>",
+        "answer": ":r!<span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "In visual mode, exchange cursor position with start/end of highlighting",
+        "answer": "o",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Start highlighting block",
+        "answer": "&lt;C-V&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Start highlighting with previous visual area",
+        "answer": "gv",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Record typed commands to register <span style=\"font-style:italic;\">x</span>",
+        "answer": "q<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Append typed commands to register <span style=\"font-style:italic;\">x</span>",
+        "answer": "q<span style=\"font-style:italic;\">X</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Stop recording",
+        "answer": "q",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move cursor to leftmost position of screen on current line",
+        "answer": "g0",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move cursor to first non-blank character of current line on screen",
+        "answer": "g^",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move cursor to last character of current line on screen",
+        "answer": "g$",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move cursor one screen line up",
+        "answer": "gk",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move cursor one screen line down",
+        "answer": "gj",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Repeat last f/F/t/T movement",
+        "answer": ";",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Inverse of last f/F/t/T movement",
+        "answer": ", <span style=\"font-style:italic;\">(comma)</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Set a mark in the current file",
+        "answer": "m<span style=\"font-style:italic;\">[a-z]</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Set a mark that can be returned to from any file",
+        "answer": "m<span style=\"font-style:italic;\">[A-Z]</span><br />(capital letters)",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Jump to tag under cursor",
+        "answer": "&lt;C-]&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Return from tag jump",
+        "answer": "&lt;C-T&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Jump to tag on top of tag stack (or select if multiple matches)",
+        "answer": ":tj",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll one line up",
+        "answer": "&lt;C-E&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll one line down",
+        "answer": "&lt;C-Y&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll current line to top of window",
+        "answer": "zt   <span style=\"font-style:italic;\">or</span>   z&lt;Enter&gt;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll current line to center of window",
+        "answer": "zz   <span style=\"font-style:italic;\">or</span>   z.",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll current line to bottom of window",
+        "answer": "zb   <span style=\"font-style:italic;\">or</span>   z-",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll one character to the right",
+        "answer": "zh",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll one character to the left",
+        "answer": "zl",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll half a screen to the right",
+        "answer": "zH",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Scroll half a screen to the left",
+        "answer": "zL",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Write range <span style=\"font-style:italic;\">r</span> to file <span style=\"font-style:italic;\">f</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>w <span style=\"font-style:italic;\">f</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Append range <span style=\"font-style:italic;\">r</span> to file <span style=\"font-style:italic;\">f</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>w&gt;&gt;<span style=\"font-style:italic;\">f</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Insert content of file <span style=\"font-style:italic;\">f</span> below cursor",
+        "answer": ":r <span style=\"font-style:italic;\">f</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Insert output of command <span style=\"font-style:italic;\">c</span> below cursor",
+        "answer": ":r! <span style=\"font-style:italic;\">c</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Repeat last substitution (:s) command",
+        "answer": "&amp;",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to next modified buffer",
+        "answer": ":bm",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Open all buffers in new splits",
+        "answer": ":ba   <span style=\"font-style:italic;\">or</span>   :sba",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Open all buffers in new vertical splits",
+        "answer": ":vert ba   <span style=\"font-style:italic;\">or</span>   :vert sba",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "The position of mark <span style=\"font-style:italic;\">x</span> in an <span style=\"font-style:italic;\">ex</span> range",
+        "answer": "'<span style=\"font-style:italic;\">x</span><br /><span style=\" font-style:italic;\">(example: :'x,'y delete)</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "In an <span style=\"font-style:italic;\">ex</span> range, the next line where <span style=\"font-style:italic;\">pat</span> matches",
+        "answer": "/<span style=\"font-style:italic;\">pat</span>/",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "In an <span style=\"font-style:italic;\">ex</span> range, the previous line where <span style=\"font-style:italic;\">pat</span> matches",
+        "answer": "?<span style=\"font-style:italic;\">pat</span>?",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "<span style=\"font-style:italic;\">n</span> lines from the preceding line number in an <span style=\"font-style:italic;\">ex</span> range",
+        "answer": "+<span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "<span style=\"font-style:italic;\">n</span> lines before the preceding line number, in an <span style=\"font-style:italic;\">ex</span> range",
+        "answer": "-<span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Look up keyword under cursor with <span style=\"font-weight:600;\">man</span>",
+        "answer": "K",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Forward to start of next method",
+        "answer": "]m",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Backward to start of previous method",
+        "answer": "[m",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move to global definition of symbol under cursor",
+        "answer": "gD",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Move to local definition of symbol under cursor",
+        "answer": "gd",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Open a window for each file in the argument list",
+        "answer": ":all",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Display the argument list",
+        "answer": ":args",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "List the leaves in the tree of (undoable) changes",
+        "answer": ":undol[ist]",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to previous text state (may cross undo branches)",
+        "answer": "g-",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Go to next text state (may cross undo branches)",
+        "answer": "g+",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Set up automatic wrapping when reaching right margin <span style=\"font-style:italic;\">n</span>",
+        "answer": ":wrapmargin <span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Turn off automatic wrapping",
+        "answer": ":wrapmargin 0",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Turn on line numbers",
+        "answer": ":set number",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "Turn off line numbers",
+        "answer": ":set nonumber",
+        "tags": [
+            "Intermediate"
+        ]
+    },
+    {
+        "question": "List of your movements",
+        "answer": ":ju(mps)",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "List of your recent commands",
+        "answer": ":his[tory]",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Lowercase line",
+        "answer": "guu",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Uppercase line",
+        "answer": "gUU",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Display hex, ascii value of character under cursor",
+        "answer": "ga",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Display hex value of utf-8 character under cursor",
+        "answer": "g8",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Rot13 whole file",
+        "answer": "ggg?G",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Add <span style=\"font-style:italic;\">n</span> to next number on same line as the cursor",
+        "answer": "<span style=\"font-style:italic;\">n</span>&lt;C-A&gt;",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In insert mode, insert value of expression (ie 5*5) into text",
+        "answer": "&lt;C-R&gt;=<span style=\"font-style:italic;\">expr</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Subtract <span style=\"font-style:italic;\">n</span> (default 1) from next number on same line as cursor",
+        "answer": "<span style=\"font-style:italic;\">n</span>&lt;C-X&gt;",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Execute the macro recorded in register <span style=\"font-style:italic;\">x</span> on all lines of the current file",
+        "answer": ":%normal @<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Execute the macro recorded in register <span style=\"font-style:italic;\">x</span> on a visually selected set of lines",
+        "answer": ":normal @<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Show lines in file matching word under cursor",
+        "answer": "[I   (capital 'I')",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move cursor <span style=\"font-style:italic;\">n</span> sentences forward",
+        "answer": "<span style=\"font-style:italic;\">n</span>)",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move cursor <span style=\"font-style:italic;\">n</span> sentences backward",
+        "answer": "<span style=\"font-style:italic;\">n</span>(",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move cursor <span style=\"font-style:italic;\">n</span> paragraphs forward",
+        "answer": "<span style=\"font-style:italic;\">n</span>}",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move cursor <span style=\"font-style:italic;\">n</span> paragraphs backward",
+        "answer": "<span style=\"font-style:italic;\">n</span>{",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Paste below the current line, adjusting indentation to match current line",
+        "answer": "]p",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Paste above the current line, adjusting indentation to match current line",
+        "answer": "[p",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Go to center of screen on current line",
+        "answer": "gm",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Column <span style=\"font-style:italic;\">n</span> of current line",
+        "answer": "<span style=\"font-style:italic;\">n</span>|",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Insert previously inserted text and return to command mode (Insert mode)",
+        "answer": "&lt;C-@&gt;",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Insert content of register <span style=\"font-style:italic;\">x</span> (Insert mode)",
+        "answer": "&lt;C-R&gt;<span style=\"font-style:italic;\">x</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Insert digraph (\u0153 \u00e9 \u00f1 etc.)",
+        "answer": "&lt;C-K&gt;<span style=\"font-style:italic;\">c1c2</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Put register after cursor position, leaving cursor after new text",
+        "answer": "gp",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Put register before cursor position, leaving cursor after new text",
+        "answer": "gP",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Format lines of movement <span style=\"font-style:italic;\">m</span> as plain text",
+        "answer": "gq<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Center lines in range <span style=\"font-style:italic;\">r</span> to width <span style=\"font-style:italic;\">n</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>ce <span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Left align lines in range <span style=\"font-style:italic;\">r</span> with indent <span style=\"font-style:italic;\">n</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>le <span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Right align lines in range <span style=\"font-style:italic;\">r</span> to width <span style=\"font-style:italic;\">n</span>",
+        "answer": ":<span style=\"font-style:italic;\">r</span>ri <span style=\"font-style:italic;\">n</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In visual mode, select a word",
+        "answer": "aw",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In visual mode, select a sentence",
+        "answer": "as",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In visual mode, select a paragraph",
+        "answer": "ap",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In visual mode, select a block delimited by ( )",
+        "answer": "ab",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "In visual mode, select a block delimited by { }",
+        "answer": "aB",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move cursor down <span style=\"font-style:italic;\">n</span>-1 lines to first non-blank character",
+        "answer": "<span style=\"font-style:italic;\">n</span>_",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move backward to start of section",
+        "answer": "[[",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move forward to start of next section",
+        "answer": "]]",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move backward to previous section end",
+        "answer": "[]",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move forward to next section end",
+        "answer": "][",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move backward to previous unclosed (",
+        "answer": "[(",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move forward to next unclosed )",
+        "answer": "])",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move backward to previous unclosed {",
+        "answer": "[{",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move forward to next unclosed }",
+        "answer": "]}",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "List matching tags (and select)",
+        "answer": ":ts",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Split window and show tag under cursor",
+        "answer": "&lt;C-W&gt;]",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Preview tag under cursor",
+        "answer": "&lt;C-W&gt;{",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Preview tag <span style=\"font-style:italic;\">t</span>",
+        "answer": ":pt <span style=\"font-style:italic;\">t</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Close tag preview window",
+        "answer": "&lt;C-W&gt;z   <span style=\"font-style:italic;\">or   </span>:pc",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Visual area expressed as an <span style=\"font-style:italic;\">ex</span> range",
+        "answer": "*<br /><span style=\"font-style:italic;\">(Example: :* delete)</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Create a fold for motion <span style=\"font-style:italic;\">m</span> in manual folding mode",
+        "answer": "zf<span style=\"font-style:italic;\">m</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Create a fold for the visually highlighted text in manual folding mode",
+        "answer": "zf",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Create a fold for <span style=\"font-style:italic;\">n</span> lines in manual folding mode",
+        "answer": "<span style=\"font-style:italic;\">n</span>zF",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Create a fold for the range of lines <span style=\"font-style:italic;\">r</span> in manual folding mode",
+        "answer": ":<span style=\"font-style:italic;\">r</span>fo[ld]",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Delete one folding level at the cursor in manual folding mode",
+        "answer": "zd",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Delete all folds recursively at the cursor in manual folding mode",
+        "answer": "zD",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Eliminate all folds in the window in manual folding mode",
+        "answer": "zE",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Open <span style=\"font-style:italic;\">n</span> levels of folding at the cursor",
+        "answer": "<span style=\"font-style:italic;\">n</span>zo<br /><span style=\"font-style:italic;\">(default 1 level when no count provided)</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Open all folds under the cursor (or visual selection) recursively",
+        "answer": "zO",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Close <span style=\"font-style:italic;\">n</span> levels of folding under the cursor",
+        "answer": "<span style=\"font-style:italic;\">n</span>zc<br /><span style=\"font-style:italic;\">(default 1 level when no count given)</span>",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Close all folds under the cursor (or visual selection) recursively",
+        "answer": "zC",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Toggle <span style=\"font-style:italic;\">n</span> levels of folding (close open folds; open closed folds)",
+        "answer": "<span style=\"font-style:italic;\">n</span>za",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Toggle folding recursively (close open folds and open closed folds)",
+        "answer": "zA",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Open just enough folds to make the line in which the cursor is located not folded",
+        "answer": "zv",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Open all folds",
+        "answer": "zR",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Fold none: All folds will be open",
+        "answer": "zn",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Fold normal: All folds will be as they were before (opposite of fold none)",
+        "answer": "zN",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move to start of current open fold",
+        "answer": "[z",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move to end of current open fold",
+        "answer": "]z",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move down to start of next fold",
+        "answer": "zj",
+        "tags": [
+            "Advanced"
+        ]
+    },
+    {
+        "question": "Move up to end of previous fold",
+        "answer": "zk",
+        "tags": [
+            "Advanced"
+        ]
+    }
+]
